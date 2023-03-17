@@ -1,0 +1,6 @@
+@media only screen and (min-width: 700px) {
+  .Cards {
+    display: flex;
+    padding-inline: 20px;
+  }
+}

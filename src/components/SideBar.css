@@ -1,0 +1,47 @@
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  padding: 10px 0px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 30px;
+}
+
+.SideBar {
+  margin-block: 20px;
+  background-color: rgb(5, 6, 33);
+  color: #fff;
+  padding: 5px 30px;
+  margin-inline: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.body {
+  cursor: pointer;
+}
+.body-title {
+  font-size: 16px;
+}
+.body-desc {
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #cdc6c6;
+  font-weight: 300;
+}
+.body:hover > .body-title {
+  color: #d7db19;
+}
+ul :nth-child(3) {
+  border-bottom: none;
+}
+
+.side-title {
+  color: #d7db19;
+}
+
+@media only screen and (min-width: 1000px) {
+  .SideBar {
+    margin-top: 10px;
+  }
+}

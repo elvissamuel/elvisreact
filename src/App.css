@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+* {
+  font-family: "Inter Tight", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.HeroSection {
+  padding-block: 10px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (min-width: 1000px) {
+  /* SideBar is a head class for the SideBar component */
+  /* .SideBar {
+    width: 60%;
+  } */
+  .App {
+    padding-inline: 70px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 1200px) {
+  /* .App {
+    padding-inline: 200px;
+  } */
+  .app-wrap {
+    display: flex;
+    gap: 30px;
+    z-index: -10;
+    height: 78vh;
+    padding: 20px 50px 40px 50px;
   }
-  to {
-    transform: rotate(360deg);
+  .HeroSection {
+    width: 120%;
+  }
+  .SideBar {
+    /* width: 50%; */
+  }
+  .hero-container {
+    display: flex;
   }
 }
